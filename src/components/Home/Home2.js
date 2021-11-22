@@ -8,7 +8,7 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
-
+//test
 function Home2() {
   return (
     <Container fluid className="home-about-section" id="about">
