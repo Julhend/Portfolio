@@ -5,7 +5,7 @@ import Particle from "../Particle";
 
 import swp from "../../Assets/Projects/swp.png";
 import sisformasi from "../../Assets/Projects/sisformasi-kenotariatan.png";
-import editor from "../../Assets/Projects/codeEditor.png";
+import kms from "../../Assets/Projects/kms.png";
 import chatify from "../../Assets/Projects/ddd.jpg";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
@@ -52,7 +52,7 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={kms}
               isBlog={false}
               title="KNOWLEDGE MANAGEMENT SYSTEM - ESCO"
               description="No description yet "
