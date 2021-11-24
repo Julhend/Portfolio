@@ -3,8 +3,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.jpeg";
+import swp from "../../Assets/Projects/swp.png";
+import sisformasi from "../../Assets/Projects/sisformasi-kenotariatan.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/ddd.jpg";
 import suicide from "../../Assets/Projects/suicide.png";
@@ -33,17 +33,17 @@ function Projects() {
               </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={swp}
               isBlog={false}
-              title="SWP"
+              title="SYNTHETICWOOD WALL PANEL - SWP"
               description="No description yet"
-              link="https://github.com/SEBIS-Development-Team/swp-express.git"
+              link="https://swpofficial.co.id/"
             />
         
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={sisformasi}
               isBlog={false}
               title="SISFORMASI KENOTARIATAN"
               description="SISFORMASI KENOTARIATAN is a website used by users to request various services available at a notary "
