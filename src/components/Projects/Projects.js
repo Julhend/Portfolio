@@ -5,8 +5,7 @@ import Particle from "../Particle";
 
 import swp from "../../Assets/Projects/swp-2.png";
 import sisformasi from "../../Assets/Projects/sisformasi-kenotariatan.png";
-import kms from "../../Assets/Projects/kms.png";
-import chatify from "../../Assets/Projects/ddd.jpg";
+import subsit from "../../Assets/Projects/ddd.jpg";
 import mockup from "../../Assets/Projects/isometric-psd-web-mockup-1-208.jpg";
 
 function Projects() {
@@ -23,7 +22,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={subsit}
               isBlog={false}
               title="SubsIt"
               description="SubsIt a Financial Management App, where users can manages subscription, periodical expense and record accounts payable (debts)."
