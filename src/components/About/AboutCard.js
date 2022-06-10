@@ -10,7 +10,7 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Jul Hendri </span>
             from <span className="purple"> Bintan, Indonesia.</span>
-            <br />Currentyly I am a Junior Backend Developer at SEBIS Edu.
+            <br />Currentyly I am an Engineer/Analyst - Fullstack Developer at AIA Singapore.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
