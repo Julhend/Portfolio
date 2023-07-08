@@ -6,7 +6,8 @@ import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
-//comment
+
+
 function About() {
   return (
     <Container fluid className="about-section">
@@ -38,14 +39,14 @@ function About() {
           Professional <strong className="purple">Skillset </strong>
         </h1>
 
-        <Techstack />
+         <Techstack />
 
-        <h1 className="project-heading">
+       <h1 className="project-heading">
           <strong className="purple">Tools</strong> I use
         </h1>
         <Toolstack />
 
-        <Github />
+        <Github />  
       </Container>
     </Container>
   );

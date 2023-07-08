@@ -1,54 +1,55 @@
-import React from "react";
-import Particles from "react-particles-js";
+import React, { useEffect } from "react";
+import { tsParticles } from "tsparticles-engine";
 
 function Particle() {
-  return (
-    <Particles
-      params={{
-        particles: {
-          number: {
-            value: 160,
-            density: {
-              enable: true,
-              value_area: 1500,
-            },
-          },
-          line_linked: {
-            enable: false,
-            opacity: 0.03,
-          },
-          move: {
-            direction: "right",
-            speed: 0.05,
-          },
-          size: {
-            value: 1,
-          },
-          opacity: {
-            anim: {
-              enable: true,
-              speed: 1,
-              opacity_min: 0.05,
-            },
+  useEffect(() => {
+    tsParticles.load("#tsparticles", {
+      particles: {
+        number: {
+          value: 160,
+          density: {
+            enable: true,
+            value_area: 1500,
           },
         },
-        interactivity: {
-          events: {
-            onclick: {
-              enable: true,
-              mode: "push",
-            },
-          },
-          modes: {
-            push: {
-              particles_nb: 1,
-            },
+        links: {
+          enable: false,
+          opacity: 0.03,
+        },
+        move: {
+          direction: "right",
+          speed: 0.05,
+        },
+        size: {
+          value: 1,
+        },
+        opacity: {
+          animation: {
+            enable: true,
+            speed: 1,
+            minimumValue: 0.05,
           },
         },
-        retina_detect: true,
-      }}
-    />
-  );
+      },
+      interactivity: {
+        detectsOn: "canvas",
+        events: {
+          onClick: {
+            enable: true,
+            mode: "push",
+          },
+        },
+        modes: {
+          push: {
+            quantity: 1,
+          },
+        },
+      },
+      detectRetina: true,
+    });
+  }, []);
+
+  return <div id="tsparticles" />;
 }
 
 export default Particle;
