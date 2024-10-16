@@ -19,18 +19,18 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-            Hello, my name is <b className="purple">Jul Hendri</b>, you can call me <b className="purple">ijul</b>, <b className="purple">jul</b>, <b className="purple">hendri</b> or what ever you want! 😸
+              
+            Hello! My name is <b className="purple">Jul Hendri</b>, but you can call me <b className="purple">Ijul</b>, <b className="purple">Jul</b>, <b className="purple">Hendri</b> or what ever you prefer! 😸
               <br />
-              <br />I'm very intrested in <b className="purple"> programming </b> although sometimes it makes me dizzy 😾 but that's what makes me 
-            more excited and want to keep trying and at least I <b className="purple"> learned </b> something! 😽
+              <br />I’m very interested in <b className="purple"> programming, </b>  even though it can sometimes make my head spin 😾. Still, that’s exactly what keeps me excited and motivated to keep trying. At the very least, I always end up <b className="purple"> learning </b> something new! 😽
               <br />
-              <br />I've used 
+              <br />I have experience with
               <i>
                 <b className="purple"> C++, Java and Javascript. </b>
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              My main interests lie in building new &nbsp;
               <i>
                 <b className="purple">Web Technologies and Products </b> 
                 {/* and
@@ -41,12 +41,11 @@ function Home2() {
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
+              Whenever possible, I love applying my passion for development using <b className="purple">Node.js</b> and
               <i>
                 <b className="purple">
                   {" "}
-                  Modern Javascript Library and Frameworks
+                  Modern Javascript libraries and Frameworks
                 </b>
               </i>
               &nbsp; like
